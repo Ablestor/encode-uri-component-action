@@ -20,7 +20,6 @@
   "homepage": "https://github.com/Ablestor/encode-uri-component-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1",
-    "lz-string": "^1.4.4"
+    "@actions/github": "^5.1.1"
   }
 }
