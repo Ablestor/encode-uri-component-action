@@ -16,8 +16,18 @@ use `encodeUriComponent` in Github Action
 
 ## Example usage
 
+SET
+
 ```yaml
-uses: actions/hello-world-javascript-action@v1.1
+uses: Ablestor/encode-uri-component-action@v1.1
+id: encode-uri-component
 with:
-  who-to-greet: "Mona the Octocat"
+  string: ""
+```
+
+GET
+
+```yaml
+name: C-7) 🏗 Get android id
+run: echo "${{ steps.encode-uri-component.outputs.string }}"
 ```
